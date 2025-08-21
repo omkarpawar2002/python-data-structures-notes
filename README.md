@@ -1,6 +1,6 @@
 # 🐍 Python Data Structures Notes
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Python](https://github.com/omkarpawar2002/python-data-structures-notes/blob/main/List.py)
 ![GitHub stars](https://img.shields.io/github/stars/omkarpawar2002/python-data-structures-notes?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/omkarpawar2002/python-data-structures-notes?style=social)
 ![License](https://img.shields.io/badge/license-MIT-green)
