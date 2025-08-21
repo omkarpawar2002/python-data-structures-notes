@@ -1,10 +1,5 @@
 # 🐍 Python Data Structures Notes
 
-![Python](https://github.com/omkarpawar2002/python-data-structures-notes/blob/main/List.py)
-![GitHub stars](https://img.shields.io/github/stars/omkarpawar2002/python-data-structures-notes?style=social)
-![GitHub forks](https://img.shields.io/github/forks/omkarpawar2002/python-data-structures-notes?style=social)
-![License](https://img.shields.io/badge/license-MIT-green)
-
 A beginner-friendly guide to Python’s **core data structures**:  
 **List**, **Tuple**, **Set**, **String**, and **Dictionary**.  
 
@@ -13,11 +8,11 @@ This repo is a **quick reference + methods cheatsheet** with explanations and ex
 ---
 
 ## 📖 Contents
-- 📂 `list.md` — methods like `append()`, `extend()`, `insert()`, `remove()`, `pop()`, `sort()`, …  
-- 📂 `tuple.md` — immutability, indexing, packing/unpacking, and common methods  
-- 📂 `set.md` — operations like union, intersection, difference, `add()`, `update()`, …  
-- 📂 `string.md` — slicing, `split()`, `join()`, `strip()`, `replace()`, `find()`, f-strings, …  
-- 📂 `dictionary.md` — key/value operations, `get()`, `update()`, `keys()`, `items()`, comprehensions  
+- 📂 `list.py` — methods like `append()`, `extend()`, `insert()`, `remove()`, `pop()`, `sort()`, …  
+- 📂 `tuple.py` — immutability, indexing, packing/unpacking, and common methods  
+- 📂 `set.py` — operations like union, intersection, difference, `add()`, `update()`, …  
+- 📂 `string.py` — `startswith`, `split()`, `isupper()`, `strip()`, `replace()`, `find()`, `islower()`, …  
+- 📂 `dictionary.py` — key/value operations, `get()`, `update()`, `keys()`, `items()`, …  
 
 ---
 
@@ -37,3 +32,33 @@ fruits = ["apple", "banana"]
 fruits.append("cherry")
 print(fruits)  
 # Output: ['apple', 'banana', 'cherry']
+```
+
+### 📌 Tuple Example
+```python
+coords = (10, 20)
+print(coords[0])  
+# Output: 10
+```
+
+### 📌 Set Example
+```python
+nums = {1, 2, 3}
+nums.add(4)
+print(nums)  
+# Output: {1, 2, 3, 4}
+```
+
+### 📌 String Example
+```python
+text = " Hello "
+print(text.strip())  
+# Output: "Hello"
+```
+
+### Dictionary Examples
+```python
+student = {"name": "Omkar"}
+print(student.get("name"))  
+# Output: Omkar
+```
